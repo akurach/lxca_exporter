@@ -23,36 +23,4 @@ for item in d:
             print("sn: " + device['serialNumber'])
             print("End Date: " + device['endDate'])
             print("Status: " + device['status'])
-
-#tr = objectpath.Tree(d)
-#tu = tuple(tr.execute('$..serialNumber'))
-#print(tu)
-
-
-
-# for row in data:
-#     print(row['children'][1]['deviceName'])
-
-#print(data)
-
-
-
-# try:
-#     from pylxca import *
-# except Exception as e:
-#     print("pyLXCA is not installed correctly")
-#     print("ERROR MSG ", str(e))
-#     sys.exit()
-#
-#
-# # create a connection object
-#
-# try:
-#     conn = connect(ip, user, passwd, no_verify)
-#     if conn == None:
-#         print(" check with LXCA credential")
-#         sys.exit()
-#     print('LXCA connection successful')
-# except Exception as e:
-#     print("LXCA connection error, please check lxca connection")
-#     print("ERROR MSG ", str(e))
+            
